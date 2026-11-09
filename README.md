@@ -73,6 +73,11 @@ full-spectrum cameras with an IR filter. At **850 nm** and beyond there's almost
 
 ## The presets
 
+> **Your photo will probably look different.** The descriptions below are what each preset gave on the 590 nm photo
+> it was fitted to. How a preset turns out depends heavily on the image: the filter, the camera's sensor, the light
+> and the subject all change it, so your result is likely to differ, sometimes a lot. Treat the presets as starting
+> points for your own edits: open **Channel Mixer** afterwards and adjust from there.
+
 Download a whole group in one file, or each preset on its own (⬇ in the last column). Or get all fifteen: [⬇ `IR.Recipes.lcpreset`](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/IR.Recipes.lcpreset).
 
 ### IR Recipes 1 · Classic
