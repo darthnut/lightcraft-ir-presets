@@ -7,6 +7,9 @@
       "name": "IR Mono, Wood Effect (no pick)",
       "group": "IR Recipes 1 \u00b7 Classic",
       "settings": {
+        "wb": {
+          "mode": "asShot"
+        },
         "channel_mixer": {
           "red": {
             "red": 100,
@@ -29,6 +32,45 @@
         },
         "effects": {
           "clarity": 15
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
         }
       }
     }

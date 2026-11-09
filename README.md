@@ -49,6 +49,14 @@ the Presets panel), then import the new file.
 4. **Switching presets:** click the new preset, then pick again. A preset sets the mixer and white balance, which
    replaces your last pick.
 
+**Presets replace each other cleanly.** Every preset sets the same settings: the mixer, white balance, and every
+tone and colour setting any of the presets uses (Vibrance, Saturation, Contrast, Clarity, the tone curve, colour
+grading, the HSL mixer, vignette and grain), at zero when it doesn't use one. So going from Day for Night or Night
+Vision back to Classic Swap leaves no grading, vignette or grain behind, and clicking back and forth always gives the
+same result. Settings no preset uses (sharpening, noise reduction, lens corrections, crop, masks) are left alone,
+and so is **Exposure**: no preset ever changes it. The flip side: a preset replaces your own changes to those tone and
+colour settings, so apply the preset first, then fine-tune.
+
 Then open **Channel Mixer** to see how the look is made, and change it from there.
 
 **Which filter?** The presets were fitted on a 590 nm camera. They're a reasonable start for 590–720 nm and
@@ -72,7 +80,7 @@ full-spectrum cameras with an IR filter. At **850 nm** and beyond there's almost
 | Lava Fields | neutral | Brick-red land under a violet sky |
 | Alien Planet | neutral | Magenta trees, a green-tinted sky |
 | Night Vision Goggles | none | Green phosphor, vignette and grain; lower Exposure if it's too bright |
-| Day for Night | neutral | Old-Hollywood fake moonlight: dark, blue, desaturated |
+| Day for Night | neutral | Old-Hollywood fake moonlight: dark, blue, desaturated (darkened by the tone curve, not Exposure) |
 | Mars Holiday | foliage | Everything rust and dust |
 
 ("neutral" means pick snow, cloud or concrete.)

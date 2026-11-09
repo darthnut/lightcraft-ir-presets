@@ -30,17 +30,49 @@
           }
         },
         "light": {
-          "exposure": -1.8,
           "contrast": 20
         },
         "color": {
-          "saturation": -40
+          "saturation": -40,
+          "vibrance": 0
+        },
+        "curve": {
+          "highlights": -100,
+          "lights": -100,
+          "darks": -80,
+          "shadows": -60
         },
         "grading": {
           "global": {
             "hue": 220,
-            "sat": 35
+            "sat": 35,
+            "lum": -60
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
           }
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grain": {
+          "amount": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
         }
       }
     }
