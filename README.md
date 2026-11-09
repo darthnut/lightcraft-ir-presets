@@ -13,8 +13,12 @@ cast.
 
 ## Install
 
+**Requires a LightCraft with the Channel Mixer** ([PR #3579](https://github.com/storytold/lightcraft/pull/3579)):
+the [IR playground](https://darthnut.github.io/lightcraft-ir-recipes/) or a build of the PR
+([see below](#which-lightcraft)). A regular LightCraft release imports the presets but can't apply them.
+
 1. Download from the [latest release](../../releases/latest):
-   - **`IR Recipes.lcpreset`** for all fifteen presets in one file, or
+   - **`IR Recipes.lcpreset`** (it downloads as `IR.Recipes.lcpreset`) for all fifteen presets in one file, or
    - just the ones you want: each preset is also its own file, named after it (`classic-swap.lcpreset`,
      `aerochrome.lcpreset`…). They're also in the [`presets`](presets) folder here.
 2. In LightCraft, either drag the file(s) onto the window, or click **Import Presets…** at the top of the Presets
