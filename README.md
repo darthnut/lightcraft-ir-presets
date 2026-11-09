@@ -5,7 +5,9 @@ Mixer**: classic red/blue swaps, a few wild false-colour looks, and some silly o
 
 **Not official, not part of LightCraft.** The Channel Mixer these presets use is proposed in
 [storytold/lightcraft#3579](https://github.com/storytold/lightcraft/pull/3579) and isn't in a LightCraft release yet.
-Until it is, the presets need a build of that pull request (see [below](#which-lightcraft)).
+Until it is, the presets need a build of that pull request (see [below](#which-lightcraft)). In a LightCraft
+without the Channel Mixer they import, but only the white balance and tone settings apply, which gives a strong blue
+cast.
 
 ![The fifteen presets on one 590 nm photo of Mt. Hood](images/contact-sheet.jpg)
 
