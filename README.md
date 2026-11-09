@@ -72,7 +72,7 @@ full-spectrum cameras with an IR filter. At **850 nm** and beyond there's almost
 | Preset | Pick | Look |
 | --- | --- | --- |
 | Classic Swap | neutral | The textbook red/blue swap. On a 590 nm filter that gives pink foliage and a teal sky |
-| Hood River Pink | neutral | The colour settings of the Mt. Hood edit in the pull request |
+| Mt Hood Pink | neutral | The colour settings of the Mt. Hood edit in the pull request |
 | White Foliage, Blue Sky | foliage | White trees under a blue sky |
 | Gold Foliage, Blue Sky | neutral | Gold trees, the look many 590 nm tutorials show |
 | Soft Pastel | neutral | Half swap, low contrast, a faint pink/teal split tone |

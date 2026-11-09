@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- **Hood River Pink is now Mt Hood Pink** (file `mt-hood-pink.lcpreset`). Same settings.
+
 ## 1.1.0
 
 - **Presets replace each other cleanly.** Every preset now sets the same settings: the mixer, white balance and every

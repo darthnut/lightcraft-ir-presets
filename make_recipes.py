@@ -12,7 +12,7 @@ C, W, S = "IR Recipes 1 · Classic", "IR Recipes 2 · Wild", "IR Recipes 3 · Si
 R = [
  ("classic-swap", C, "Classic Swap: pink foliage, teal sky (pick snow/cloud/concrete)", "neutral",
   {"channel_mixer": SWAP, "color": {"vibrance": 15}}),
- ("hood-river-pink", C, "Hood River Pink (pick snow/cloud/concrete)", "neutral",
+ ("mt-hood-pink", C, "Mt Hood Pink (pick snow/cloud/concrete)", "neutral",
   {"channel_mixer": SWAP, "color": {"vibrance": 35, "saturation": 7},
    "mixer": {"magenta": {"hue": 100}, "purple": {"hue": 100}}, "curve": {"darks": 19, "highlights": -36}}),
  ("white-foliage", C, "White Foliage, Blue Sky (pick foliage)", "foliage",
