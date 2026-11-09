@@ -99,12 +99,16 @@ if __name__ == "__main__":
     assert ("light", "exposure") not in shared, "Exposure is the photographer's: no recipe may set it"
     presets = [{"id": f"ir-recipe-{i}", "name": n, "group": g, "settings": {"wb": WB if p else AS_SHOT} | with_neutrals(s, shared)}
                for i, g, n, p, s in R]
-    # Writes, under the folder given (default: here), all fifteen in one file to install everything, and each on its
-    # own under presets/<group>/. A preset keeps its group either way, and importing one that is already installed
-    # (same name, group and settings) is skipped, so the two can be mixed.
+    # Writes, under the folder given (default: here): all fifteen in one file to install everything; each group in
+    # one file (presets/ir-presets-<group>.lcpreset); and each preset on its own under presets/<n>-<group>/. A preset
+    # keeps its group in all three, and importing one that is already installed (same name, group and settings) is
+    # skipped, so they can be mixed. File names are unique across folders: the release attaches them all side by side.
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     write(os.path.join(root, "IR Recipes.lcpreset"), presets)
-    groups = {g: f"{k}-{slug(g.split('·')[-1])}" for k, g in enumerate([C, W, S], 1)}
-    for (i, g, *_), p in zip(R, presets):
-        write(os.path.join(root, "presets", groups[g], f"{i}.lcpreset"), [p])
+    for k, g in enumerate([C, W, S], 1):
+        name = slug(g.split("·")[-1])
+        mine = [p for p in presets if p["group"] == g]
+        write(os.path.join(root, "presets", f"ir-presets-{name}.lcpreset"), mine)
+        for p in mine:
+            write(os.path.join(root, "presets", f"{k}-{name}", p["id"].removeprefix("ir-recipe-") + ".lcpreset"), [p])
     json.dump([[i, n, p] for i, _, n, p, _ in R], sys.stdout)

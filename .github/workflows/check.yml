@@ -35,7 +35,24 @@ jobs:
           everything = load("IR Recipes.lcpreset")
           ids = [p["id"] for p in everything]
           assert len(ids) == len(set(ids)), "duplicate ids"
+          key = lambda p: p["id"]
           singles = [p for f in sorted(glob.glob("presets/*/*.lcpreset")) for p in load(f)]
-          assert sorted(singles, key=lambda p: p["id"]) == sorted(everything, key=lambda p: p["id"]), "singles != combined"
-          print(len(ids), "presets ok")
+          assert sorted(singles, key=key) == sorted(everything, key=key), "singles != combined"
+          group_files = sorted(glob.glob("presets/ir-presets-*.lcpreset"))
+          in_groups = [p for f in group_files for p in load(f)]
+          assert sorted(in_groups, key=key) == sorted(everything, key=key), "group files != combined"
+          for f in group_files:
+              assert len({p["group"] for p in load(f)}) == 1, f + " mixes groups"
+          print(len(ids), "presets ok,", len(group_files), "group files")
+          EOF
+      - name: Every download link in the README names a file the release attaches
+        run: |
+          python - <<'EOF'
+          import glob, os, re
+          names = {os.path.basename(f) for f in glob.glob("presets/**/*.lcpreset", recursive=True)} | {"IR.Recipes.lcpreset"}
+          assert len(names) == len(glob.glob("presets/**/*.lcpreset", recursive=True)) + 1, "file names must be unique"
+          links = re.findall(r"releases/latest/download/([^)\s]+)", open("README.md", encoding="utf-8").read())
+          missing = [l for l in links if l not in names]
+          assert not missing, f"README links to files that don't exist: {missing}"
+          print(len(links), "download links ok")
           EOF

@@ -19,8 +19,12 @@ the [IR playground](https://darthnut.github.io/lightcraft-ir-recipes/) or a buil
 
 1. Download from the [latest release](../../releases/latest):
    - **`IR Recipes.lcpreset`** (it downloads as `IR.Recipes.lcpreset`) for all fifteen presets in one file, or
+   - one group: `ir-presets-classic.lcpreset`, `ir-presets-wild.lcpreset` or `ir-presets-silly.lcpreset`, or
    - just the ones you want: each preset is also its own file, named after it (`classic-swap.lcpreset`,
-     `aerochrome.lcpreset`…). They're also in the [`presets`](presets) folder here.
+     `aerochrome.lcpreset`…).
+
+   The [preset list](#the-presets) below links straight to each file, and they're all in the [`presets`](presets)
+   folder here too.
 2. In LightCraft, either drag the file(s) onto the window, or click **Import Presets…** at the top of the Presets
    panel (also under **File ▸ Import Presets…**).
 
@@ -69,23 +73,43 @@ full-spectrum cameras with an IR filter. At **850 nm** and beyond there's almost
 
 ## The presets
 
-| Preset | Pick | Look |
-| --- | --- | --- |
-| Classic Swap | neutral | The textbook red/blue swap. On a 590 nm filter that gives pink foliage and a teal sky |
-| Mt Hood Pink | neutral | The colour settings of the Mt. Hood edit in the pull request |
-| White Foliage, Blue Sky | foliage | White trees under a blue sky |
-| Gold Foliage, Blue Sky | neutral | Gold trees, the look many 590 nm tutorials show |
-| Soft Pastel | neutral | Half swap, low contrast, a faint pink/teal split tone |
-| IR Mono, Wood Effect | none | Black and white from the red channel, punchy |
-| IR Mono, Soft Glow | none | Same source, negative Clarity for a dreamy glow |
-| Faux Aerochrome | neutral | Red foliage in the style of Kodak Aerochrome film |
-| Fake Summer | neutral | Green trees again, though not quite the right green |
-| Teal Forest, Orange Sky | neutral | Complementary teal and orange |
-| Lava Fields | neutral | Brick-red land under a violet sky |
-| Alien Planet | neutral | Magenta trees, a green-tinted sky |
-| Night Vision Goggles | none | Green phosphor, vignette and grain; lower Exposure if it's too bright |
-| Day for Night | neutral | Old-Hollywood fake moonlight: dark, blue, desaturated (darkened by the tone curve, not Exposure) |
-| Mars Holiday | foliage | Everything rust and dust |
+Download a whole group in one file, or each preset on its own (⬇ in the last column). Or get all fifteen: [⬇ `IR.Recipes.lcpreset`](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/IR.Recipes.lcpreset).
+
+### IR Recipes 1 · Classic
+
+Swaps and monochrome: the looks most IR photographers start from. All 7 in one file: [⬇ `ir-presets-classic.lcpreset`](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/ir-presets-classic.lcpreset)
+
+| Preset | Pick | Look | Download |
+| --- | --- | --- | --- |
+| Classic Swap | neutral | The textbook red/blue swap. On a 590 nm filter that gives pink foliage and a teal sky | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/classic-swap.lcpreset) |
+| Mt Hood Pink | neutral | The colour settings of the Mt. Hood edit in the pull request | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/mt-hood-pink.lcpreset) |
+| White Foliage, Blue Sky | foliage | White trees under a blue sky | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/white-foliage.lcpreset) |
+| Gold Foliage, Blue Sky | neutral | Gold trees, the look many 590 nm tutorials show | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/gold-foliage.lcpreset) |
+| Soft Pastel | neutral | Half swap, low contrast, a faint pink/teal split tone | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/pastel.lcpreset) |
+| IR Mono, Wood Effect | none | Black and white from the red channel, punchy | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/mono-wood.lcpreset) |
+| IR Mono, Soft Glow | none | Same source, negative Clarity for a dreamy glow | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/mono-glow.lcpreset) |
+
+### IR Recipes 2 · Wild
+
+False-colour looks that send foliage and sky to new hues. All 5 in one file: [⬇ `ir-presets-wild.lcpreset`](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/ir-presets-wild.lcpreset)
+
+| Preset | Pick | Look | Download |
+| --- | --- | --- | --- |
+| Faux Aerochrome | neutral | Red foliage in the style of Kodak Aerochrome film | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/aerochrome.lcpreset) |
+| Fake Summer | neutral | Green trees again, though not quite the right green | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/fake-summer.lcpreset) |
+| Teal Forest, Orange Sky | neutral | Complementary teal and orange | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/teal-forest.lcpreset) |
+| Lava Fields | neutral | Brick-red land under a violet sky | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/lava.lcpreset) |
+| Alien Planet | neutral | Magenta trees, a green-tinted sky | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/alien.lcpreset) |
+
+### IR Recipes 3 · Silly
+
+Silly on purpose. All 3 in one file: [⬇ `ir-presets-silly.lcpreset`](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/ir-presets-silly.lcpreset)
+
+| Preset | Pick | Look | Download |
+| --- | --- | --- | --- |
+| Night Vision Goggles | none | Green phosphor, vignette and grain; lower Exposure if it's too bright | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/night-vision.lcpreset) |
+| Day for Night | neutral | Old-Hollywood fake moonlight: dark, blue, desaturated (darkened by the tone curve, not Exposure) | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/day-for-night.lcpreset) |
+| Mars Holiday | foliage | Everything rust and dust | [⬇](https://github.com/darthnut/lightcraft-ir-presets/releases/latest/download/mars.lcpreset) |
 
 ("neutral" means pick snow, cloud or concrete.)
 

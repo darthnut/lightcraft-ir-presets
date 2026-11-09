@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0
+
+- **A download for each group:** `ir-presets-classic.lcpreset`, `ir-presets-wild.lcpreset` and
+  `ir-presets-silly.lcpreset`, alongside the single presets and the file with all fifteen.
+- **The preset list in the README is grouped** (Classic, Wild, Silly) with a download link for each group and each
+  preset. The presets themselves are unchanged.
+
 ## 1.1.1
 
 - **Hood River Pink is now Mt Hood Pink** (file `mt-hood-pink.lcpreset`). Same settings.

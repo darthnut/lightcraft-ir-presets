@@ -1,0 +1,376 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-aerochrome",
+      "name": "Faux Aerochrome: red foliage, blue sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -10,
+            "green": -30,
+            "blue": 140
+          },
+          "green": {
+            "red": 10,
+            "green": 150,
+            "blue": -60
+          },
+          "blue": {
+            "red": 140,
+            "green": 90,
+            "blue": -130
+          }
+        },
+        "color": {
+          "vibrance": 10,
+          "saturation": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-fake-summer",
+      "name": "Fake Summer: green foliage (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -170,
+            "green": 140,
+            "blue": 130
+          },
+          "green": {
+            "red": -30,
+            "green": 20,
+            "blue": 110
+          },
+          "blue": {
+            "red": 20,
+            "green": 110,
+            "blue": -30
+          }
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-teal-forest",
+      "name": "Teal Forest, Orange Sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 80,
+            "green": 90,
+            "blue": -70
+          },
+          "green": {
+            "red": 10,
+            "green": -10,
+            "blue": 100
+          },
+          "blue": {
+            "red": -150,
+            "green": 50,
+            "blue": 200
+          }
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-lava",
+      "name": "Lava Fields: orange-red foliage, violet sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 80,
+            "green": -30,
+            "blue": 50
+          },
+          "green": {
+            "red": -70,
+            "green": 100,
+            "blue": 70
+          },
+          "blue": {
+            "red": 130,
+            "green": 50,
+            "blue": -80
+          }
+        },
+        "color": {
+          "vibrance": 15,
+          "saturation": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-alien",
+      "name": "Alien Planet: purple trees, green sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 20,
+            "blue": 80
+          },
+          "green": {
+            "red": 130,
+            "green": 110,
+            "blue": -140
+          },
+          "blue": {
+            "red": 30,
+            "green": -10,
+            "blue": 80
+          }
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    }
+  ]
+}

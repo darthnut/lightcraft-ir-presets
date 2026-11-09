@@ -1,0 +1,520 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-classic-swap",
+      "name": "Classic Swap: pink foliage, teal sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 0,
+            "blue": 100
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "color": {
+          "vibrance": 15,
+          "saturation": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-mt-hood-pink",
+      "name": "Mt Hood Pink (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 0,
+            "blue": 100
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "color": {
+          "vibrance": 35,
+          "saturation": 7
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 100
+          },
+          "purple": {
+            "hue": 100
+          }
+        },
+        "curve": {
+          "darks": 19,
+          "highlights": -36,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-white-foliage",
+      "name": "White Foliage, Blue Sky (pick foliage)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -40,
+            "green": 0,
+            "blue": 140
+          },
+          "green": {
+            "red": 50,
+            "green": -20,
+            "blue": 70
+          },
+          "blue": {
+            "red": 0,
+            "green": 30,
+            "blue": 70
+          }
+        },
+        "color": {
+          "vibrance": 10,
+          "saturation": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-gold-foliage",
+      "name": "Gold Foliage, Blue Sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -20,
+            "green": 0,
+            "blue": 120
+          },
+          "green": {
+            "red": 60,
+            "green": 0,
+            "blue": 40
+          },
+          "blue": {
+            "red": 140,
+            "green": 90,
+            "blue": -130
+          }
+        },
+        "color": {
+          "vibrance": 10,
+          "saturation": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "light": {
+          "contrast": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-pastel",
+      "name": "Soft Pastel, half swap (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 40,
+            "green": 0,
+            "blue": 60
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 60,
+            "green": 0,
+            "blue": 40
+          }
+        },
+        "color": {
+          "vibrance": 20,
+          "saturation": 0
+        },
+        "light": {
+          "contrast": -15
+        },
+        "grading": {
+          "highlights": {
+            "hue": 330,
+            "sat": 8
+          },
+          "shadows": {
+            "hue": 200,
+            "sat": 10
+          },
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          }
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "effects": {
+          "clarity": 0
+        },
+        "grain": {
+          "amount": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-mono-wood",
+      "name": "IR Mono, Wood Effect (no pick)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "asShot"
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "green": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "light": {
+          "contrast": 35
+        },
+        "effects": {
+          "clarity": 15
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    },
+    {
+      "id": "ir-recipe-mono-glow",
+      "name": "IR Mono, Soft Glow (no pick)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "asShot"
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "green": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "light": {
+          "contrast": 10
+        },
+        "effects": {
+          "clarity": -30
+        },
+        "color": {
+          "saturation": 0,
+          "vibrance": 0
+        },
+        "curve": {
+          "darks": 0,
+          "highlights": 0,
+          "lights": 0,
+          "shadows": 0
+        },
+        "grading": {
+          "global": {
+            "hue": 0,
+            "lum": 0,
+            "sat": 0
+          },
+          "highlights": {
+            "hue": 0,
+            "sat": 0
+          },
+          "shadows": {
+            "hue": 0,
+            "sat": 0
+          }
+        },
+        "grain": {
+          "amount": 0
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 0
+          },
+          "purple": {
+            "hue": 0
+          }
+        },
+        "vignette": {
+          "amount": 0
+        }
+      }
+    }
+  ]
+}
