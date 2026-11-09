@@ -1,0 +1,38 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-white-foliage",
+      "name": "White Foliage, Blue Sky (pick foliage)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -40,
+            "green": 0,
+            "blue": 140
+          },
+          "green": {
+            "red": 50,
+            "green": -20,
+            "blue": 70
+          },
+          "blue": {
+            "red": 0,
+            "green": 30,
+            "blue": 70
+          }
+        },
+        "color": {
+          "vibrance": 10
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-aerochrome",
+      "name": "Faux Aerochrome: red foliage, blue sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -10,
+            "green": -30,
+            "blue": 140
+          },
+          "green": {
+            "red": 10,
+            "green": 150,
+            "blue": -60
+          },
+          "blue": {
+            "red": 140,
+            "green": 90,
+            "blue": -130
+          }
+        },
+        "color": {
+          "vibrance": 10
+        }
+      }
+    }
+  ]
+}

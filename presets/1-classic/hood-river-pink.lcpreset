@@ -1,0 +1,51 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-hood-river-pink",
+      "name": "Hood River Pink (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 0,
+            "blue": 100
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "color": {
+          "vibrance": 35,
+          "saturation": 7
+        },
+        "mixer": {
+          "magenta": {
+            "hue": 100
+          },
+          "purple": {
+            "hue": 100
+          }
+        },
+        "curve": {
+          "darks": 19,
+          "highlights": -36
+        }
+      }
+    }
+  ]
+}

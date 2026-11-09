@@ -1,0 +1,51 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-pastel",
+      "name": "Soft Pastel, half swap (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 40,
+            "green": 0,
+            "blue": 60
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 60,
+            "green": 0,
+            "blue": 40
+          }
+        },
+        "color": {
+          "vibrance": 20
+        },
+        "light": {
+          "contrast": -15
+        },
+        "grading": {
+          "highlights": {
+            "hue": 330,
+            "sat": 8
+          },
+          "shadows": {
+            "hue": 200,
+            "sat": 10
+          }
+        }
+      }
+    }
+  ]
+}

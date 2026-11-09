@@ -1,0 +1,50 @@
+name: Share a recipe from another editor
+description: Your infrared channel-mixer numbers from Photoshop, GIMP, Affinity, Capture One, Lightroom…
+title: "Recipe: "
+labels: ["recipe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        No need to install anything. Your numbers from another editor are a great starting point: they mix in a
+        slightly different way to LightCraft, so they get tested and tuned before going into the presets.
+  - type: input
+    id: filter
+    attributes:
+      label: Filter
+      description: "590 nm, 665 nm, 720 nm, 850 nm, full spectrum + a filter, or other."
+    validations:
+      required: true
+  - type: input
+    id: camera
+    attributes:
+      label: Camera
+  - type: input
+    id: editor
+    attributes:
+      label: Editor
+      description: Which program, and version if you know it.
+  - type: textarea
+    id: whitebalance
+    attributes:
+      label: White balance
+      description: Custom in-camera WB on grass? A DNG/camera profile? A temperature and tint?
+  - type: textarea
+    id: mixer
+    attributes:
+      label: Channel mixer
+      description: For each output channel, the red / green / blue amounts in percent.
+      placeholder: |
+        Red output:   R 0   G 0   B 100
+        Green output: R 0   G 100 B 0
+        Blue output:  R 100 G 0   B 0
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+      description: Hue/saturation changes, curves, colour grading…
+  - type: textarea
+    id: images
+    attributes:
+      label: Before / after (optional)
+      description: Drag and drop images here.

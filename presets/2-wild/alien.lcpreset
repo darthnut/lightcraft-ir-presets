@@ -1,0 +1,35 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-alien",
+      "name": "Alien Planet: purple trees, green sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 20,
+            "blue": 80
+          },
+          "green": {
+            "red": 130,
+            "green": 110,
+            "blue": -140
+          },
+          "blue": {
+            "red": 30,
+            "green": -10,
+            "blue": 80
+          }
+        }
+      }
+    }
+  ]
+}

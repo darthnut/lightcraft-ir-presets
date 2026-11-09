@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Try the presets in your browser
+    url: https://darthnut.github.io/lightcraft-ir-recipes/
+    about: The IR playground has the Channel Mixer and these presets built in. Photos never leave your computer.

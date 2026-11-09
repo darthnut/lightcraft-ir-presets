@@ -1,0 +1,38 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-gold-foliage",
+      "name": "Gold Foliage, Blue Sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -20,
+            "green": 0,
+            "blue": 120
+          },
+          "green": {
+            "red": 60,
+            "green": 0,
+            "blue": 40
+          },
+          "blue": {
+            "red": 140,
+            "green": 90,
+            "blue": -130
+          }
+        },
+        "color": {
+          "vibrance": 10
+        }
+      }
+    }
+  ]
+}

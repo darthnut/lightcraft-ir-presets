@@ -1,0 +1,48 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-day-for-night",
+      "name": "Day for Night (pick snow/cloud/concrete)",
+      "group": "IR Recipes 3 \u00b7 Silly",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 0,
+            "green": 0,
+            "blue": 100
+          },
+          "green": {
+            "red": 0,
+            "green": 100,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "light": {
+          "exposure": -1.8,
+          "contrast": 20
+        },
+        "color": {
+          "saturation": -40
+        },
+        "grading": {
+          "global": {
+            "hue": 220,
+            "sat": 35
+          }
+        }
+      }
+    }
+  ]
+}

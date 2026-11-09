@@ -1,0 +1,39 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-night-vision",
+      "name": "Night Vision Goggles (no pick)",
+      "group": "IR Recipes 3 \u00b7 Silly",
+      "settings": {
+        "channel_mixer": {
+          "red": {
+            "red": 20,
+            "green": 0,
+            "blue": 0
+          },
+          "green": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "blue": {
+            "red": 20,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "light": {
+          "contrast": 35
+        },
+        "vignette": {
+          "amount": -60
+        },
+        "grain": {
+          "amount": 45
+        }
+      }
+    }
+  ]
+}

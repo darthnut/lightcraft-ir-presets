@@ -1,0 +1,35 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-fake-summer",
+      "name": "Fake Summer: green foliage (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": -170,
+            "green": 140,
+            "blue": 130
+          },
+          "green": {
+            "red": -30,
+            "green": 20,
+            "blue": 110
+          },
+          "blue": {
+            "red": 20,
+            "green": 110,
+            "blue": -30
+          }
+        }
+      }
+    }
+  ]
+}

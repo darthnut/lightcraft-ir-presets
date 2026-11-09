@@ -1,0 +1,35 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-teal-forest",
+      "name": "Teal Forest, Orange Sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 80,
+            "green": 90,
+            "blue": -70
+          },
+          "green": {
+            "red": 10,
+            "green": -10,
+            "blue": 100
+          },
+          "blue": {
+            "red": -150,
+            "green": 50,
+            "blue": 200
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: Check presets
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: The committed preset files match what make_recipes.py generates
+        run: |
+          python make_recipes.py generated > /dev/null
+          if ! diff -r generated/presets presets || ! cmp -s "generated/IR Recipes.lcpreset" "IR Recipes.lcpreset"; then
+            echo "::error::the preset files are out of date: run python make_recipes.py and commit the result"
+            exit 1
+          fi
+      - name: They are valid LightCraft preset files, and the single files add up to the combined one
+        run: |
+          python - <<'EOF'
+          import glob, json
+          def load(p):
+              d = json.load(open(p, encoding="utf-8"))
+              assert d["format"] == "lightcraft.preset" and d["version"] == 1, p
+              for q in d["presets"]:
+                  assert q["name"].strip() and q["group"].strip() and isinstance(q["settings"], dict), (p, q["id"])
+              return d["presets"]
+          everything = load("IR Recipes.lcpreset")
+          ids = [p["id"] for p in everything]
+          assert len(ids) == len(set(ids)), "duplicate ids"
+          singles = [p for f in sorted(glob.glob("presets/*/*.lcpreset")) for p in load(f)]
+          assert sorted(singles, key=lambda p: p["id"]) == sorted(everything, key=lambda p: p["id"]), "singles != combined"
+          print(len(ids), "presets ok")
+          EOF

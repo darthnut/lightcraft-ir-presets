@@ -1,0 +1,38 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-lava",
+      "name": "Lava Fields: orange-red foliage, violet sky (pick snow/cloud/concrete)",
+      "group": "IR Recipes 2 \u00b7 Wild",
+      "settings": {
+        "wb": {
+          "mode": "custom",
+          "temp": 2000,
+          "tint": 0
+        },
+        "channel_mixer": {
+          "red": {
+            "red": 80,
+            "green": -30,
+            "blue": 50
+          },
+          "green": {
+            "red": -70,
+            "green": 100,
+            "blue": 70
+          },
+          "blue": {
+            "red": 130,
+            "green": 50,
+            "blue": -80
+          }
+        },
+        "color": {
+          "vibrance": 15
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": "lightcraft.preset",
+  "version": 1,
+  "presets": [
+    {
+      "id": "ir-recipe-mono-glow",
+      "name": "IR Mono, Soft Glow (no pick)",
+      "group": "IR Recipes 1 \u00b7 Classic",
+      "settings": {
+        "channel_mixer": {
+          "red": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "green": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          },
+          "blue": {
+            "red": 100,
+            "green": 0,
+            "blue": 0
+          }
+        },
+        "light": {
+          "contrast": 10
+        },
+        "effects": {
+          "clarity": -30
+        }
+      }
+    }
+  ]
+}
